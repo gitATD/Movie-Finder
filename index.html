@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Details Finder</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Courgette&family=Great+Vibes&family=Honk&family=Kalam:wght@300;400;700&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Movie Details Finder</h1>
+        </header>
+        <div class="searchbox">
+            <input type="text" name="movie_name" id="movie_name" placeholder="Enter Movie Name">
+            <input type="image" src="Search.png" id="search_icon" alt="Search Icon">
+        </div>
+        <div class="loading">
+            <img src="loading.gif" alt="Loading">
+        </div>
+        <div class="result">
+            <h2 class="movie_title"></h2>
+            <h5 class="year_of_release"></h5>
+            <figure class="movie_poster">
+                <img id = "movie_poster" src="" alt="Movie Poster">
+            </figure>
+            <figure class="imdb_logo">
+                <img id = "imdb_logo" src="IMDb Logo.png" alt="IMDb Logo">
+                <figcaption class="imdb_rating"></figcaption>
+            </figure>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
