@@ -7,7 +7,7 @@ async function getDetails()
 {
     // Generating the URL
     const movie_name = document.getElementById("movie_name").value;
-    const url = "http://www.omdbapi.com/?apikey=a5aa17e6&t="+movie_name;
+    const url = "https://www.omdbapi.com/?apikey=a5aa17e6&t="+movie_name;
 
     // Declaring the variables for elements
     const loading = document.getElementsByClassName("loading")[0];
